@@ -1,17 +1,26 @@
 {
   "name": "chatpoe",
   "version": "1.0.0",
-  "description": "Um projeto para completar histórias",
-  "main": "src/backend/app.js",
+  "description": "Um projeto para o Chatpoe",
+  "main": "app.js",
   "scripts": {
-    "start": "node backend/app.js", 
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "Seu Nome",
   "license": "ISC",
   "dependencies": {
+    // Aqui você deve listar as dependências do seu projeto, como express, etc.
     "express": "^4.17.1",
-    "cors": "^2.8.5",
-    "body-parser": "^1.19.0"
+    "sqlite3": "^5.0.2"
+    // adicione outras dependências conforme necessário
+  },
+  "devDependencies": {
+    // Aqui você pode listar dependências de desenvolvimento, se houver
+  },
+  "homepage": "https://github.com/mateusyyy222ww/chatpoe#readme",
+  "bugs": {
+    "url": "https://github.com/mateusyyy222ww/chatpoe/issues"
   }
 }
