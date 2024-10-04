@@ -11,16 +11,8 @@
   "author": "Seu Nome",
   "license": "ISC",
   "dependencies": {
-    // Aqui você deve listar as dependências do seu projeto, como express, etc.
     "express": "^4.17.1",
     "sqlite3": "^5.0.2"
-    // adicione outras dependências conforme necessário
   },
-  "devDependencies": {
-    // Aqui você pode listar dependências de desenvolvimento, se houver
-  },
-  "homepage": "https://github.com/mateusyyy222ww/chatpoe#readme",
-  "bugs": {
-    "url": "https://github.com/mateusyyy222ww/chatpoe/issues"
-  }
+  "devDependencies": {}
 }
